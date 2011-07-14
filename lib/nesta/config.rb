@@ -6,7 +6,7 @@ require "sinatra"
 module Nesta
   class Config
     @settings = %w[
-      title subtitle theme disqus_short_name cache content google_analytics_code
+      title subtitle theme disqus_short_name cache content google_analytics_code google_plus_url
     ]
     @author_settings = %w[name uri email]
     @yaml = nil

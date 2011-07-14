@@ -11,3 +11,4 @@ db/*.db
 pkg/*
 plugins
 public/cache
+.idea/*

@@ -154,6 +154,7 @@ module Nesta
     end
 
     get '*' do
+      redirect Nesta::Config.google_plus_url if request.path_info == "/+"
       set_common_variables
       @heading = @title
       parts = params[:splat].map { |p| p.sub(/\/$/, '') }
