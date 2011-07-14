@@ -1,3 +1,10 @@
+= Current
+ * Added Google+ vanity URL, just pass in your google+ into the config file, "/+" will redirect you to the profile
+
+ * Replaced Maruku with Kramdown
+
+ * Added coderay for better codeformatting
+
 = 0.9.5 / (Unreleased)
 
  * Added --version option to nesta command (Christopher Lindblom).
